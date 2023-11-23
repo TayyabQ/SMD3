@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <!-- First Row -->
+    <LinearLayout
+        android:id="@+id/first_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="70dp"
+            android:src="@drawable/item" />
+
+        <TextView
+            android:id="@+id/textEmailVerification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:text="Items"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Report"
+            android:textColor="#FF5722"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="66dp"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </LinearLayout>
+
+    <!-- Second Row (Image "p") -->
+    <ImageView
+        android:id="@+id/imageP"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:src="@drawable/p"
+
+        android:layout_weight="0.6" />
+
+    <TextView
+        android:id="@+id/textHourlyRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageP"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-115dp"
+        android:text="$12 / hr"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageP"
+        android:layout_marginTop="-65dp"
+        android:text="Names of items comes here"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:singleLine="true" />
+    <TextView
+        android:id="@+id/textLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Islamabad"
+        android:layout_marginTop="479dp"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7th Mar, 2023"
+        android:layout_marginTop="479dp"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageP"
+        android:layout_marginTop="25dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur"
+        android:textSize="20sp"
+
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageP"
+        android:layout_marginTop="55dp"
+        android:text="adipiscing elit. Mauris nec nisi a sem
+ "
+        android:textSize="20sp"
+
+        android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageP"
+        android:layout_marginTop="85dp"
+        android:text="elementum condimentum. Proin volutpat erat
+                      tortor, eu gravida orci efficitur eget."
+        android:textSize="20sp"
+
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageP"
+        android:layout_marginTop="115dp"
+        android:text="tortor, eu gravida orci efficitur eget."
+        android:textSize="20sp"
+        android:singleLine="true" />
+
+    <!-- Text "Ryan Ghazi" in bold -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="-42dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="650dp"
+        android:src="@drawable/dp" />
+
+    <!-- Image "ms" on the right-most side -->
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="695dp"
+        android:text="Ryan Ghazi"
+        android:textSize="20sp"
+        android:layout_marginLeft="135dp"
+        android:textStyle="bold" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="725dp"
+        android:text="24 items rented"
+        android:textSize="15sp"
+        android:layout_marginLeft="135dp"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="650dp"
+        android:src="@drawable/ms" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="895dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#FF5722"
+        android:text="Rent it"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+    </ScrollView>

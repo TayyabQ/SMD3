@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity9">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.88"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:layout_weight="0.1"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:layout_gravity="center"
+                android:text="Makenna Dias"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:layout_weight="0.7"
+                android:textStyle="bold"/>
+            <ImageView
+                android:id="@+id/caller"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_call_24"
+                android:layout_weight="0.1"/>
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_video_call_24"
+                android:layout_weight="0.1"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_run_circle_24"
+                    android:layout_weight="0.1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center"
+                    android:text="Some text messege"
+                    android:paddingLeft="10dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/searchbar"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.6"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="16:48"
+                    android:paddingLeft="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.2"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="16:48"
+                    android:paddingLeft="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.2"
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center"
+                    android:text="Some text messege"
+                    android:paddingLeft="10dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/orangechat"
+                    android:textColor="@color/white"
+                    android:layout_weight="0.6"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_run_circle_24"
+                    android:layout_weight="0.1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center"
+                    android:text="Some text messege"
+                    android:paddingLeft="10dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/searchbar"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.6"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="16:48"
+                    android:paddingLeft="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.2"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="16:48"
+                    android:paddingLeft="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.2"
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center"
+                    android:text="Some text messege"
+                    android:paddingLeft="10dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/orangechat"
+                    android:textColor="@color/white"
+                    android:layout_weight="0.6"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_run_circle_24"
+                    android:layout_weight="0.1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center"
+                    android:text="Some text messege"
+                    android:paddingLeft="10dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/searchbar"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.6"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="16:48"
+                    android:paddingLeft="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.2"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="16:48"
+                    android:paddingLeft="10dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="0.2"
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_gravity="center"
+                    android:text="Some text messege"
+                    android:paddingLeft="10dp"
+                    android:textSize="20dp"
+                    android:background="@drawable/orangechat"
+                    android:textColor="@color/white"
+                    android:layout_weight="0.6"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#B9B0B0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write a Reply ..."
+            android:textSize="16dp"
+            android:layout_margin="8dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_camera_alt_24"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_baseline_image_24"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_baseline_insert_drive_file_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Send"
+                android:textColor="#FF5722"
+                android:layout_marginLeft="220dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

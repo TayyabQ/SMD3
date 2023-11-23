@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <!-- First Row -->
+    <LinearLayout
+        android:id="@+id/first_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="70dp"
+            android:src="@drawable/item" />
+
+        <TextView
+            android:id="@+id/textEmailVerification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:text="Items"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imagep"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="-90dp"
+        android:src="@drawable/q"
+
+        android:layout_weight="0.6" />
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="255dp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+
+        android:id="@+id/getName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="13dp"
+        android:background="#2D000000"
+        android:ems="10"
+
+        android:hint="Enter Item  name"
+        android:inputType="text"
+        android:paddingLeft="14dp"
+
+          />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="350dp"
+        android:text="Hourly rate"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginRight="13dp"
+        android:background="#2D000000"
+        android:ems="10"
+        android:hint="Enter Hourly rate "
+        android:inputType="text"
+        android:paddingLeft="14dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="450dp"
+        android:text="description"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginRight="13dp"
+        android:background="#2D000000"
+        android:ems="10"
+        android:hint="Enter description"
+        android:inputType="text"
+        android:paddingLeft="14dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="570dp"
+        android:text="City"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginRight="13dp"
+        android:background="#2D000000"
+        android:ems="10"
+        android:hint="Enter City "
+        android:inputType="text"
+        android:paddingLeft="14dp" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="745dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FF5722"
+        android:text="Post Item"
+        android:textStyle="bold" />
+
+
+
+
+        </RelativeLayout>

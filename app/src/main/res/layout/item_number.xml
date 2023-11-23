@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context=".MainActivity6">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    android:layout_weight="0.9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Exactly what you need"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:weightSum="1"
+        android:background="@drawable/searchbar">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_search_24"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.8"
+            android:inputType="textPersonName"
+            android:text="Search" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recent Searches"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Item Number 1"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_weight="0.8"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_baseline_arrow_outward_24"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Item Number 1"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_weight="0.8"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_baseline_arrow_outward_24"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Item Number 1"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_weight="0.8"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_baseline_arrow_outward_24"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular Searches"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Item Number 1"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_weight="0.8"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_baseline_arrow_outward_24"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Item Number 1"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_weight="0.8"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_baseline_arrow_outward_24"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Item Number 1"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_weight="0.8"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_baseline_arrow_outward_24"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Item Number 1"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_weight="0.8"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_baseline_arrow_outward_24"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_home_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_search_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.3"
+            android:src="@drawable/ic_baseline_add_circle_24" />
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/chat"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_chat_bubble_outline_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chat"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_manage_accounts_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
